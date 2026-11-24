@@ -24,9 +24,7 @@
   "homeLocation": { "@type": "Place", "name": "Тирасполь" },
   "sameAs": [
     "https://t.me/ponomarik12",
-    "https://www.instagram.com/axios_pmr/",
-    "https://vasyagarga1331.github.io/Axios/",
-    "https://vasyagarga1331.github.io/Orthodox_Youth_of_Tiraspol-/"
+    "https://www.instagram.com/axios_pmr/"
   ]
 }
 </script>
@@ -93,6 +91,8 @@
     font-size: 1.3rem; font-weight: 700;
     box-shadow: 0 6px 16px rgba(107, 66, 38, .4);
   }
+  .main-btn { flex-direction: column; gap: 6px; }
+  .main-btn small { font-size: .92rem; font-weight: 400; line-height: 1.35; max-width: 320px; opacity: .92; }
   .main-btn:hover { background: #7d4d2c; box-shadow: 0 8px 20px rgba(107, 66, 38, .5); }
 
   .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
@@ -111,10 +111,12 @@
 <main>
   <div class="avatar" aria-hidden="true">ВГ</div>
   <h1>Василий Гаргалык</h1>
-  <p class="lead">Плету авторские браслеты АКСИОС.</p>
   <p class="city">Тирасполь, Приднестровье</p>
 
-  <a class="btn main-btn" href="https://vasyagarga1331.github.io/Axios/">Заказать браслеты</a>
+  <a class="btn main-btn" href="tel:+37377802643">
+    <span>Позвонить</span>
+    <small>+373 77 802 643</small>
+  </a>
 
   <div class="row">
     <a class="btn tile" href="https://t.me/ponomarik12" rel="me noopener">
@@ -126,16 +128,6 @@
       Instagram
     </a>
   </div>
-
-  <a class="btn wide" href="tel:+37377802643">
-    <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M12 7l4 .5 2 6-3 2c1.5 3.5 4 6 7.500 7.500l2-3 6 2 .5 4c0 2-1.500 3.500-4 3.500C17 29.500 10.500 23 8.500 11 8.500 8.500 10 7 12 7z"/></svg>
-    <span><span class="t">Позвонить</span><span class="v">+373 77 802 643</span></span>
-  </a>
-
-  <a class="btn wide center" href="https://vasyagarga1331.github.io/Orthodox_Youth_of_Tiraspol-/">
-    <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 4v32M16 9h8M11 15h18M15 28l10 4"/></svg>
-    <span><span class="t">Православная молодёжь Тирасполя</span><span class="v">Молодёжка</span></span>
-  </a>
 
   <footer>© Василий Гаргалык</footer>
 </main>
